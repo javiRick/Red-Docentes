@@ -1,12 +1,163 @@
- <!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Web</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Red de Docentes Investigadores de Educación Básica</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts para tipografía profesional -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome para iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
+
+    <!-- Header / Barra de Navegación -->
+    <header class="site-header">
+        <div class="container nav-container">
+            <div class="logo">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <span>Red <strong>Docentes Investigadores</strong></span>
+            </div>
+            <nav class="nav-menu">
+                <a href="#inicio">Inicio</a>
+                <a href="#nosotros">Nosotros</a>
+                <a href="#lineas">Líneas de Investigación</a>
+                <a href="#recursos">Recursos</a>
+                <a href="#contacto" class="btn-nav">Únete a la Red</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sección Hero / Portada Impactante -->
+    <section id="inicio" class="hero">
+        <div class="container hero-content">
+            <div class="hero-badge">
+                <i class="fa-solid fa-sparkles"></i> Innovación y Ciencia Educativa
+            </div>
+            <h1>Transformando la Educación Básica a través de la Investigación</h1>
+            <p>Conectamos a docentes apasionados por la investigación pedagógica para generar conocimiento de alto impacto, compartir buenas prácticas y revolucionar el aprendizaje escolar.</p>
+            <div class="hero-buttons">
+                <a href="#contacto" class="btn btn-primary">Formar Parte de la Red <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="#nosotros" class="btn btn-outline">Conoce Más</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Estadísticas / Impacto -->
+    <section class="stats-bar">
+        <div class="container stats-grid">
+            <div class="stat-item">
+                <h3>+500</h3>
+                <p>Docentes Activos</p>
+            </div>
+            <div class="stat-item">
+                <h3>+40</h3>
+                <p>Instituciones</p>
+            </div>
+            <div class="stat-item">
+                <h3>+120</h3>
+                <p>Proyectos Publicados</p>
+            </div>
+            <div class="stat-item">
+                <h3>24</h3>
+                <p>Provincias Conectadas</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Quiénes Somos -->
+    <section id="nosotros" class="section about">
+        <div class="container">
+            <div class="section-header">
+                <h2>¿Quiénes Somos?</h2>
+                <p>Una comunidad colaborativa orientada al rigor científico y la mejora continua del aula.</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="icon-box"><i class="fa-solid fa-bullseye"></i></div>
+                    <h3>Nuestra Misión</h3>
+                    <p>Fomentar la investigación educativa en el nivel básico como herramienta fundamental para diagnosticar, proponer y transformar las realidades de nuestras aulas.</p>
+                </div>
+                <div class="about-card">
+                    <div class="icon-box"><i class="fa-solid fa-eye"></i></div>
+                    <h3>Nuestra Visión</h3>
+                    <p>Ser la red de investigación docente líder en la región, reconocida por la calidad de sus publicaciones científicas y su impacto directo en las políticas educativas.</p>
+                </div>
+                <div class="about-card">
+                    <div class="icon-box"><i class="fa-solid fa-handshake-angle"></i></div>
+                    <h3>Nuestros Valores</h3>
+                    <p>Colaboración abierta, rigor académico, ética profesional, empatía y compromiso inquebrantable con la infancia y niñez.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Líneas de Investigación -->
+    <section id="lineas" class="section research-lines">
+        <div class="container">
+            <div class="section-header">
+                <h2>Líneas de Investigación</h2>
+                <p>Áreas prioritarias de estudio y debate pedagógico.</p>
+            </div>
+            <div class="lines-grid">
+                <div class="line-card">
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h3>Tecnologías y TIC en el Aula</h3>
+                    <p>Integración efectiva de herramientas digitales y metodologías híbridas en la educación básica.</p>
+                </div>
+                <div class="line-card">
+                    <i class="fa-solid fa-brain"></i>
+                    <h3>Neuroeducación y Aprendizaje</h3>
+                    <p>Aplicación de los descubrimientos neurocientíficos para optimizar los procesos cognitivos y emocionales infantiles.</p>
+                </div>
+                <div class="line-card">
+                    <i class="fa-solid fa-book-open-reader"></i>
+                    <h3>Lectoescritura y Pensamiento Crítico</h3>
+                    <p>Estrategias innovadoras para el desarrollo de la comprensión lectora y el razonamiento lógico desde temprana edad.</p>
+                </div>
+                <div class="line-card">
+                    <i class="fa-solid fa-people-roof"></i>
+                    <h3>Inclusión y Diversidad Educativa</h3>
+                    <p>Modelos pedagógicos adaptativos para garantizar una educación equitativa, accesible y sin barreras.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Contacto e Invitación -->
+    <section id="contacto" class="section contact-section">
+        <div class="container contact-box">
+            <h2>¿Listo para investigar y transformar la educación?</h2>
+            <p>Suma tu experiencia a nuestra red nacional de docentes investigadores. Juntos hacemos que la ciencia pedagógica cobre vida.</p>
+            <a href="https://wa.me/593939082290?text=Hola,%20deseo%20más%20información%20sobre%20la%20Red%20de%20Docentes%20Investigadores%20de%20Educación%20Básica." class="whatsapp-btn-large" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-whatsapp"></i> Contáctanos por WhatsApp
+            </a>
+        </div>
+    </section>
+
+    <!-- Botón Flotante de WhatsApp -->
+    <a href="https://wa.me/593939082290?text=Hola,%20quisiera%20unirme%20a%20la%20Red%20de%20Docentes%20Investigadores." class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat de WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- Pie de Página (Footer) -->
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <div class="footer-quote">
+                <p class="quote-text">"Investigar no es solo buscar respuestas, es sembrar en las mentes de hoy las preguntas que transformarán el mañana."</p>
+                <span class="quote-author">— Red de Docentes Investigadores</span>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Red de Docentes de Investigación de Educación Básica. Todos los derechos reservados.</p>
+                <div class="footer-socials">
+                    <a href="https://wa.me/593939082290" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="#"><i class="fa-solid fa-globe"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 </body>
 </html>
